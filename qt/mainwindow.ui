@@ -94,7 +94,7 @@
        <enum>QTabWidget::TabPosition::North</enum>
       </property>
       <property name="currentIndex">
-       <number>1</number>
+       <number>0</number>
       </property>
       <widget class="QWidget" name="signals_tab">
        <attribute name="title">
@@ -183,49 +183,6 @@
          </layout>
         </item>
        </layout>
-      </widget>
-      <widget class="QWidget" name="tab">
-       <attribute name="title">
-        <string>Export results</string>
-       </attribute>
-       <widget class="QWidget" name="verticalLayoutWidget">
-        <property name="geometry">
-         <rect>
-          <x>9</x>
-          <y>9</y>
-          <width>361</width>
-          <height>421</height>
-         </rect>
-        </property>
-        <layout class="QVBoxLayout" name="verticalLayout_2">
-         <item>
-          <widget class="QGroupBox" name="groupBox_3">
-           <property name="title">
-            <string>ROI information</string>
-           </property>
-           <layout class="QGridLayout" name="gridLayout_13">
-            <item row="0" column="0">
-             <widget class="QCheckBox" name="check_include_csv_hdr">
-              <property name="toolTip">
-               <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Exports a csv (comma separated values) file containing information computed about the selected regions of interest, if any. Includes summary information about the test.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
-              </property>
-              <property name="text">
-               <string>Include columns header</string>
-              </property>
-             </widget>
-            </item>
-            <item row="1" column="0" alignment="Qt::AlignmentFlag::AlignTop">
-             <widget class="QPushButton" name="btn_export">
-              <property name="text">
-               <string>Export CSV</string>
-              </property>
-             </widget>
-            </item>
-           </layout>
-          </widget>
-         </item>
-        </layout>
-       </widget>
       </widget>
       <widget class="QWidget" name="header_tab">
        <attribute name="title">
